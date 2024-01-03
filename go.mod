@@ -1,3 +1,3 @@
-module github.com/go-curses/corelibs/filewriter
+module github.com/go-corelibs/filewriter
 
 go 1.21.0
