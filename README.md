@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/go-corelibs/filewriter/graph/badge.svg?token=GZgRVDKZlr)](https://codecov.io/gh/go-corelibs/filewriter)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-corelibs/filewriter)](https://goreportcard.com/report/github.com/go-corelibs/filewriter)
 
-# go-corelibs/filewriter - file writer that does not keep open file handles
+# filewriter - file writer that does not keep open file handles
 
 filewriter is a package for writing things to files that other processes may
 also be writing to at the same time so it does not keep any open file handles
@@ -16,7 +16,7 @@ longer than absolutely necessary.
 
 # Examples
 
-## 
+## Write, WalkFile, Remove
 
 ``` go
 func main() {
